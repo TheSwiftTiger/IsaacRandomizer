@@ -1,0 +1,6 @@
+[package]
+name = "isaac-randomizer"
+version = "0.1.0"
+authors = ["TheSwiftTiger"]
+
+[dependencies]
