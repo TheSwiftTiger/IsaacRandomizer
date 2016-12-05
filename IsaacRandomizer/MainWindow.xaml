@@ -1,0 +1,163 @@
+﻿<Window x:Class="IsaacRandomizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:IsaacRandomizer"
+        mc:Ignorable="d"
+        Title="Isaac Randomizer" Height="686.516" Width="811.666" ResizeMode="CanMinimize" Activated="WindowActivated">
+    <Grid Margin="0,0,0,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="283*"/>
+            <ColumnDefinition Width="239*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="437" Margin="0,110,0,0" VerticalAlignment="Top" Width="806" Grid.ColumnSpan="2">
+            <TabControl.Resources>
+                <Style TargetType="TabItem">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="HeaderTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <TextBlock FontWeight="Bold" Text="{Binding}"/>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TabControl.Resources>
+            <TabItem Header="Presets" HorizontalAlignment="Left" VerticalAlignment="Top" Width="268">
+                <Grid Background="#FFE5E5E5">
+                    <Button x:Name="loadPreset" Content="Load Preset" HorizontalAlignment="Center" Margin="269,44,429,0" VerticalAlignment="Top" Width="71" Click="button2_Click"/>
+                    <Button x:Name="savePreset" Content="Save Preset" HorizontalAlignment="Center" Margin="269,20,429,0" VerticalAlignment="Top" Width="71" Click="savePreset_Click" RenderTransformOrigin="-0.305,0.517"/>
+                    <ListBox x:Name="presetList" HorizontalAlignment="Center" Height="329" Margin="0,69,0,0" VerticalAlignment="Top" Width="231" MouseDoubleClick="presetList_MouseDoubleClick"/>
+                    <TextBox x:Name="presetName" HorizontalAlignment="Center" Height="20" Margin="345,19,269,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="155" Text="Preset1" MaxLines="1"/>
+                    <Button x:Name="deletePreset" Content="Delete Preset" HorizontalAlignment="Center" Margin="425,44,269,0" VerticalAlignment="Top" Width="75" Click="deletePreset_Click"/>
+                    <Button x:Name="updatePreset" Content="Update" HorizontalAlignment="Center" Margin="345,44,349,0" VerticalAlignment="Top" Width="75" Click="updatePreset_Click"/>
+                    <Image x:Name="image2" HorizontalAlignment="Left" Height="258" Margin="57,0,0,0" VerticalAlignment="Center" Width="169" Source="doodle3.png" RenderOptions.BitmapScalingMode="NearestNeighbor" Stretch="Uniform"/>
+                    <Image x:Name="image2_Copy" HorizontalAlignment="Left" Height="258" Margin="563,75,0,75" VerticalAlignment="Center" Width="169" Source="doodle4.png" RenderOptions.BitmapScalingMode="NearestNeighbor" Stretch="Uniform"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Graphics &amp; Sound" HorizontalAlignment="Left" Width="266">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-1,0" HorizontalAlignment="Left" Width="801">
+                    <Image x:Name="image" HorizontalAlignment="Center" Height="134" Margin="271,265,271,0" VerticalAlignment="Top" Width="246" Source="doodle1.png" RenderOptions.BitmapScalingMode="NearestNeighbor" RenderTransformOrigin="0.5,0.5" Stretch="Uniform"/>
+
+                    <CheckBox x:Name="doesRandomizeMusic" Content="Randomize Music!" HorizontalAlignment="Left" Margin="275,139,0,0" VerticalAlignment="Top"/>
+
+                    <CheckBox x:Name="doesRandomizeSounds" Content="Randomize Sounds" HorizontalAlignment="Left" Margin="275,70,0,0" VerticalAlignment="Top" Click="doesRandomizeSounds_Click"/>
+                    <Label x:Name="label3" Content="Randomizer Intensity" HorizontalAlignment="Left" Margin="275,85,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="277,111,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="120" IsEnabled="False" PreviewTextInput="isInteger_PreviewTextInput" MaxLength="2"/>
+
+                    <CheckBox x:Name="doesRandomizeCurses" Content="Randomize Curse Names" HorizontalAlignment="Left" Margin="275,30,0,0" VerticalAlignment="Top" Width="162"/>
+
+                    <CheckBox x:Name="checkBox2" Content="Randomize Stages" HorizontalAlignment="Left" Margin="275,10,0,0" VerticalAlignment="Top" Width="151"/>
+
+                    <CheckBox x:Name="originalWords" Content="Classic Words" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" IsEnabled="False">
+                    </CheckBox>
+                    <CheckBox x:Name="edgyWords" Content="New Words" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="originalWords_Checked" Width="122">
+                    </CheckBox>
+                    <CheckBox x:Name="jokeWords" Content="NSFW and Joke Words" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" IsEnabled="False">
+                    </CheckBox>
+                    <CheckBox x:Name="doesRandomizeBossNames" Content="Randomize Boss Names" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Click="doesRandomizeBossNames_Click"/>
+                    <RadioButton x:Name="bossNameConsistent" Content="Relevant" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="bossNameConsistent_Checked" Unchecked="bossNameConsistent_Unchecked"/>
+                    <RadioButton x:Name="bossNameRandom" Content="Irrelevant" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+
+                    <CheckBox x:Name="doesRandomizeCharacterNames" Content="Randomize Player Names" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="doesRandomizeCharacterSprites" Content="Randomize Player Sprites" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="checkBox9" Content="Randomize Cards" HorizontalAlignment="Left" Margin="544,150,0,0" VerticalAlignment="Top" Checked="checkBox9_Checked"/>
+                    <CheckBox x:Name="checkBox10" Content="Randomize Pills" HorizontalAlignment="Left" Margin="544,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.296,-1"/>
+                    <CheckBox x:Name="checkBox" Content="Randomize Items" HorizontalAlignment="Left" Margin="543,30,0,0" VerticalAlignment="Top" Unchecked="ItemsXmlCheckboxUnchecked" Checked="ItemsXmlCheckboxChecked"/>
+                    <CheckBox x:Name="checkBox3" Content="Randomize Item Sprites" HorizontalAlignment="Left" Margin="543,10,0,0" VerticalAlignment="Top" Width="165"/>
+
+
+                    <Grid HorizontalAlignment="Left" Height="40" Margin="544,50,0,0" VerticalAlignment="Top" Width="114">
+                        <RadioButton x:Name="radioButton" Content="Relevant Names" HorizontalAlignment="Left" Margin="0,3,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="radioButton_Checked"/>
+                        <RadioButton x:Name="radioButton1" Content="Irrelevant Names" HorizontalAlignment="Left" Margin="0,23,0,0" VerticalAlignment="Top" IsEnabled="False" RenderTransformOrigin="1.009,3.067"/>
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Height="61" Margin="10,220,0,0" VerticalAlignment="Top" Width="125">
+                        <RadioButton x:Name="fontIsaac" Content="Isaac Font" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
+                        <RadioButton x:Name="fontReadable" Content="Alternate Font" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,20,0,0"/>
+                    </Grid>
+                    <CheckBox x:Name="removePauseMenuIcons" Content="Remove Item Pause Menu Icons" HorizontalAlignment="Left" Margin="544,110,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Gameplay" HorizontalAlignment="Right" Width="268">
+                <Grid Background="#FFE5E5E5">
+                    <CheckBox x:Name="doesMaxHp"  Content="Randomize Max HP Multiplier" HorizontalAlignment="Left" Margin="532,42,0,0" VerticalAlignment="Top" Click="doesMaxHp_Click"/>
+                    <TextBox x:Name="maxHp" HorizontalAlignment="Left" Height="15" Margin="739,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesHpGain"  Content="Randomize Health Multiplier" HorizontalAlignment="Left" Margin="532,62,0,0" VerticalAlignment="Top" Click="doesHpGain_Click"/>
+                    <TextBox x:Name="hpGain" HorizontalAlignment="Left" Height="15" Margin="739,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesSoulGain" Content="Randomize Soul Heart Multiplier" HorizontalAlignment="Left" Margin="532,82,0,0" VerticalAlignment="Top" Click="doesSoulGain_Click"/>
+                    <TextBox x:Name="soulGain" HorizontalAlignment="Left" Height="15" Margin="739,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesBlackGain" Content="Randomize Black Heart Multiplier" HorizontalAlignment="Left" Margin="532,102,0,0" VerticalAlignment="Top" Click="doesBlackGain_Click" Checked="doesBlackGain_Checked"/>
+                    <TextBox x:Name="blackGain" HorizontalAlignment="Left" Height="15" Margin="739,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesFullGain" Content="Randomize Full HP Multiplier" HorizontalAlignment="Left" Margin="532,122,0,0" VerticalAlignment="Top" Click="doesFullGain_Click"/>
+                    <TextBox x:Name="fullGain" HorizontalAlignment="Left" Height="15" Margin="739,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesBombGain" Content="Randomize Bomb Multiplier" HorizontalAlignment="Left" Margin="532,142,0,0" VerticalAlignment="Top" Click="doesBombGain_Click"/>
+                    <TextBox x:Name="bombGain" HorizontalAlignment="Left" Height="15" Margin="739,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesKeyGain" Content="Randomize Key Multiplier" HorizontalAlignment="Left" Margin="532,162,0,0" VerticalAlignment="Top" Click="doesKeyGain_Click"/>
+                    <TextBox x:Name="keyGain" HorizontalAlignment="Left" Height="15" Margin="739,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+                    <CheckBox x:Name="doesCoinGain" Content="Randomize Coin Multiplier" HorizontalAlignment="Left" Margin="532,182,0,0" VerticalAlignment="Top" Click="doesCoinGain_Click" RenderTransformOrigin="2.23,13.067"/>
+                    <TextBox x:Name="coinGain" HorizontalAlignment="Left" Height="15" Margin="739,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" PreviewTextInput="isFloat_PreviewTextInput" Text="1"/>
+
+                    <CheckBox x:Name="checkBox7" Content="Randomize Active Charges" HorizontalAlignment="Left" Margin="263,144,0,0" VerticalAlignment="Top" Click="checkBox7_Click"/>
+
+                    <Grid HorizontalAlignment="Left" Height="49" Margin="291,164,0,0" VerticalAlignment="Top" Width="161">
+                        <RadioButton x:Name="activeChargesFair" Content="Fair" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="False"/>
+                        <RadioButton x:Name="activeChargesRandom" Content="Random" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="False" Margin="0,20,0,0"/>
+                    </Grid>
+                    <CheckBox x:Name="checkBox5" Content="Disable Special Flag" HorizontalAlignment="Left" Margin="263,124,0,0" VerticalAlignment="Top"/>
+
+                    <CheckBox x:Name="checkBox6" Content="Randomize Item Pools" HorizontalAlignment="Left" Margin="263,41,0,0" VerticalAlignment="Top" Click="checkBox6_Checked"/>
+                    <CheckBox x:Name="doesRandomizeRarities" Content="Randomize Item Rarities" HorizontalAlignment="Left" Margin="263,61,0,0" VerticalAlignment="Top" Width="164" Click="checkBox3_Copy_Checked"/>
+                    <Grid Margin="291,81,328,289">
+                        <RadioButton x:Name="raritiesFair" Content="Fair" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="False"/>
+                        <RadioButton x:Name="raritiesRandom" Content="Random" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,20,0,0" IsEnabled="False"/>
+                    </Grid>
+                    <CheckBox x:Name="doesRandomizePlayerPickups" Content="Randomize Player Pickups" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Click="doesRandomizePlayerPickups_Click"/>
+                    <Grid HorizontalAlignment="Left" Height="146" Margin="39,124,0,0" VerticalAlignment="Top" Width="142">
+                        <RadioButton x:Name="hasSpecificAmountPickups" Content="Pickups Each" VerticalAlignment="Top" IsEnabled="False" Checked="hasSpecificAmountPickups_Click" Unchecked="hasSpecificAmountPickups_Unchecked" Margin="0,0,22,0"/>
+                        <TextBox x:Name="pickupsEach" Height="16" Margin="103,0,-11,0" Width="50" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" IsEnabled="False" PreviewTextInput="isInteger_PreviewTextInput" RenderTransformOrigin="0.392,0.5"/>
+                        <RadioButton x:Name="hasTotalAmountPickups" Content="Total Amount" Margin="0,20,42,0" Height="15" VerticalAlignment="Top" IsEnabled="False" Checked="hasTotalAmountPickups_Click" Unchecked="hasTotalAmountPickups_Unchecked"/>
+                        <TextBox x:Name="totalPickup" Height="16" Margin="103,18,-11,0" Width="50" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" IsEnabled="False" PreviewTextInput="isInteger_PreviewTextInput"/>
+                        <CheckBox x:Name="coinMultiplier" Content="More Coins" HorizontalAlignment="Right" Margin="0,60,22,0" VerticalAlignment="Top" IsEnabled="False" Width="120"/>
+                        <RadioButton x:Name="radioButton2" Content="Random" HorizontalAlignment="Left" Margin="0,40,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    </Grid>
+
+                    <CheckBox x:Name="doesRandomizePlayerItems" Content="Randomize Player Items" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Click="doesRandomizePlayerItems_Click"/>
+                    <TextBox x:Name="specificItemAmount" HorizontalAlignment="Left" Height="16" Margin="121,61,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" IsEnabled="False" Width="50" PreviewTextInput="isInteger_PreviewTextInput"/>
+                    <CheckBox x:Name="hasSpecificAmountItems" Content="Items Each" HorizontalAlignment="Left" Margin="39,61,0,0" VerticalAlignment="Top" IsEnabled="False" Click="hasSpecificAmountItems_Click"/>
+                    <CheckBox x:Name="ensureActiveItem" Content="Ensure Active Item" HorizontalAlignment="Left" Margin="39,84,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <Label x:Name="label9" Content="Players" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <Label x:Name="label7" Content="Item Basics" HorizontalAlignment="Left" Margin="263,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <Label x:Name="label8" Content="Item Pickups" HorizontalAlignment="Left" Margin="532,11,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,-1.192" FontWeight="Bold"/>
+                    <Image x:Name="image1" HorizontalAlignment="Center" Margin="274,251,274,0" VerticalAlignment="Top" Source="doodle2.png" RenderOptions.BitmapScalingMode="NearestNeighbor" RenderTransformOrigin="0.5,0.5" Stretch="Uniform" Height="148" Width="252"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="10,625,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="786" ToolTip="Enter your The Binding of Isaac: Afterbirth Steam installation directory here." Grid.ColumnSpan="2"/>
+        <Button x:Name="button" Content="RANDOMIZE!" Margin="0,552,0,0" HorizontalAlignment="Center" Grid.ColumnSpan="2" FontSize="50" FontFamily="{StaticResource IsaacHandwritten}" Click="button_Click_1" Width="233" Height="39" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.131"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.331"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="3" ShadowDepth="5"/>
+            </Button.Effect>
+        </Button>
+        <CheckBox x:Name="deletesCurrentFiles" IsChecked="True" Content="Delete Current Randomizer Files" HorizontalAlignment="Left" Margin="169,552,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="White"/>
+        <CheckBox x:Name="overwriteOriginalFiles" IsChecked="True" Foreground="White" Content="Overwrite Current Isaac Mods" HorizontalAlignment="Left" Margin="182,572,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label x:Name="label" Content="Isaac Path" HorizontalAlignment="Center" Foreground="White" Margin="374,599,348,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="84"/>
+        <Image x:Name="image3" gif:ImageBehavior.AnimatedSource="logo.gif" HorizontalAlignment="Left" Height="110" VerticalAlignment="Top" Width="806" Grid.ColumnSpan="2" Stretch="UniformToFill"/>
+        <Image x:Name="image4" gif:ImageBehavior.AnimatedSource="backdrop.gif" HorizontalAlignment="Left" Height="110" VerticalAlignment="Top" Width="806" Grid.ColumnSpan="2" Stretch="UniformToFill" Margin="0,547,0,0" Panel.ZIndex="-1"/>
+        <Button x:Name="button1" Content="Remove Randomizations" Grid.Column="1" HorizontalAlignment="Left" Margin="210,592,0,0" VerticalAlignment="Top" Width="149" Click="button1_Click_1"/>
+        <CheckBox x:Name="music" Content="Music!" HorizontalAlignment="Left" Margin="10,552,0,0" VerticalAlignment="Top" Foreground="White" Checked="music_Checked" Unchecked="music_Unchecked"/>
+        <MediaElement x:Name="Media" Margin="114,534,261,54" RenderTransformOrigin="0.5,0.5" Visibility="Hidden"/>
+    </Grid>
+</Window>

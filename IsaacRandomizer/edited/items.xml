@@ -1,0 +1,527 @@
+<items gfxroot="gfx/items/" version="1">
+  <passive cache="firedelay" description="Sideswiper down, Pug way up" gfx="Collectibles_001_TheSadOnion.png" id="1" name="The Trainless Shives" />
+  <passive cache="firedelay" description="You feel Addressed..." gfx="Collectibles_002_TheInnerEye.png" id="2" name="Inscriptions" />
+  <passive cache="speed tearcolor tearflag" description="Nematocysts up" gfx="Collectibles_003_SpoonBender.png" id="3" name="Loki's Pug" />
+  <passive cache="damage shotspeed" description="Rectangular Violations" gfx="Collectibles_004_CricketsHead.png" id="4" name="Dad's Fidelio" />
+  <passive cache="tearflag shotspeed range" description="Acerate Isogeothermss" gfx="Collectibles_005_MyReflection.png" id="5" name="Undauntedness" />
+  <passive cache="firedelay range tearcolor" description="A-bomb up" gfx="Collectibles_006_NumberOne.png" id="6" name="Doctor's Deprived Haemostasis" />
+  <passive cache="damage" description="Angie up" gfx="Collectibles_007_BloodOfTheMartyr.png" id="7" name="Bani of Sterculias" />
+  <familiar description="Legionary Anglophiles" gfx="Collectibles_008_BrotherBobby.png" id="8" name="Monstro's Legitimist" />
+  <passive description="Unpraiseworthy Bowmans" gfx="Collectibles_009_Skatole.png" id="9" name="Monstro's Two-a-penny Wires" />
+  <familiar description="Stone-cold Sobriquetss" gfx="Collectibles_010_HaloOfFlies.png" id="10" name="Dad's Fragrant Falderals" />
+  <familiar description="Bergamot up" gfx="Collectibles_011_1Up.png" id="11" name="Conquistador" />
+  <passive cache="damage range speed" description="Somnific Mouthfulss" gfx="Collectibles_012_MagicMushroom.png" hearts="100" id="12" maxhearts="2" name="Asclepiad of Clipperss" />
+  <passive description="Affixes up" gfx="Collectibles_013_TheVirus.png" id="13" name="Welshwoman of Detectors" />
+  <passive cache="range speed" description="Photoreceptor up" gfx="Collectibles_014_RoidRage.png" id="14" name="Mom's Premiere Angie" />
+  <passive description="You feel Trimeric..." gfx="Collectibles_015_Heart.png" hearts="99" id="15" maxhearts="2" name="Eve's Paedophilia Vomitings" />
+  <passive description="You feel Unblocked..." gfx="Collectibles_016_RawLiver.png" hearts="99" id="16" maxhearts="4" name="The Projected Bluetits" />
+  <passive description="Invalidation down, Cockateel way up" gfx="Collectibles_017_SkeletonKey.png" id="17" keys="99" name="Nightclubbers of Brews" />
+  <passive coins="99" description="Detector up" gfx="Collectibles_018_ADollar.png" id="18" name="Doctor's Disembodied Flavourings" />
+  <passive bombs="10" description="You feel Unchronicled..." gfx="Collectibles_019_Boom.png" id="19" name="Max's Judo" />
+  <passive achievement="8" cache="flying" description="Daydream down, Sidonie way up" gfx="Collectibles_020_Transcendence.png" id="20" name="Self-seekers" />
+  <passive description="Syndactyl Gullibilitys" gfx="Collectibles_021_TheCompass.png" id="21" name="???'s Kingdom" />
+  <passive description="Exosporous Disgraces" gfx="Collectibles_022_Lunch.png" hearts="2" id="22" maxhearts="2" name="Sterculia" />
+  <passive description="Thickeners up" gfx="Collectibles_023_Dinner.png" hearts="2" id="23" maxhearts="2" name="Bob's Lampas" />
+  <passive description="Perrault up" gfx="Collectibles_024_Dessert.png" hearts="2" id="24" maxhearts="2" name="Incurvations" />
+  <passive description="You feel Impertinent..." gfx="Collectibles_025_Breakfast.png" hearts="2" id="25" maxhearts="2" name="Eden's Jellyfishes" />
+  <passive description="You feel Authentic..." gfx="Collectibles_026_RottenMeat.png" hearts="2" id="26" maxhearts="2" name="Sabbath" />
+  <passive cache="speed" description="You feel Undeliberate..." gfx="Collectibles_027_WoodenSpoon.png" id="27" name="Dad's Appellants" />
+  <passive cache="speed" description="Tocher down, Bani way up" gfx="Collectibles_028_TheBelt.png" id="28" name="The Bouncy Dioptrics" />
+  <passive cache="range" description="Pounds up" gfx="Collectibles_029_MomsUnderwear.png" id="29" name="The Nodal Diathermy" />
+  <passive cache="range" description="You feel Navicular..." gfx="Collectibles_030_MomsHeels.png" id="30" name="???'s Mitigated Radicchio" />
+  <passive cache="range" description="You feel Falcate..." gfx="Collectibles_031_MomsLipstick.png" id="31" name="Launch" />
+  <passive achievement="139" cache="firedelay" description="You feel Tinted..." gfx="Collectibles_032_WireCoatHanger.png" id="32" name="Moonbeam of Disgraces" />
+  <active cache="flying" description="You feel Long-suffering..." gfx="Collectibles_033_TheBible.png" id="33" maxcharges="6" name="Judas's Conquistador" />
+  <active cache="damage" description="Protoplast down, Escalades way up" gfx="Collectibles_034_TheBookOfBelial.png" id="34" maxcharges="3" name="Rosin" />
+  <active achievement="36" description="Rascasse up" gfx="Collectibles_035_TheNecronomicon.png" id="35" maxcharges="6" name="The Bespattered Stampede" />
+  <active description="Mazzini down, Musicalness way up" gfx="Collectibles_036_ThePoop.png" id="36" maxcharges="1" name="Bob's Nightclubbers" />
+  <active description="You feel Funereal..." gfx="Collectibles_037_MrBoom.png" id="37" maxcharges="2" name="Cowhides" />
+  <active description="You feel Ungauged..." gfx="Collectibles_038_TammysHead.png" id="38" maxcharges="1" name="Doctor's Exerciser" />
+  <active cooldown="220" description="High-fidelity Abjectnesss" gfx="Collectibles_039_MomsBra.png" id="39" maxcharges="3" name="The Bobtail Pea" />
+  <active cooldown="30" description="Sidonie down, Foreshadowing way up" gfx="Collectibles_040_Kamikaze.png" id="40" maxcharges="0" name="Judas's Yeuks" />
+  <active cooldown="180" description="Flavorous Diathermys" gfx="Collectibles_041_MomsPad.png" id="41" maxcharges="3" name="The Fervent Launch" />
+  <active description="Lie-abeds down, Sippet way up" gfx="Collectibles_042_BobsRottenHead.png" id="42" maxcharges="3" name="The Quarterly Coss" />
+  <active cooldown="30" description="Radicchio down, Bladderworts way up" gfx="Collectibles_044_Teleport.png" id="44" maxcharges="2" name="The Long-suffering Stompers" />
+  <active description="Radicchio up" gfx="Collectibles_045_YumHeart.png" id="45" maxcharges="4" name="The Multifarious Moonbeam" />
+  <passive cache="luck" description="Rosin down, Brumbies way up" gfx="Collectibles_046_LuckyFoot.png" id="46" name="Penn'orths" />
+  <active description="Glummest Bladderwortss" gfx="Collectibles_047_DoctorsRemote.png" id="47" maxcharges="2" name="The Nodal Sonship" />
+  <passive cache="tearflag" description="Emphysemas up" gfx="Collectibles_048_CupidsArrow.png" id="48" name="Spinner" />
+  <active description="Pew up" gfx="Collectibles_049_ShoopDaWhoop.png" id="49" maxcharges="2" name="Urolith of Sukkahss" />
+  <passive cache="damage" description="Talkfests up" gfx="Collectibles_050_Steven.png" id="50" name="The Encouraged Burbles" />
+  <passive cache="damage" description="Gapeseed down, Outparish way up" gfx="Collectibles_051_Pentagram.png" id="51" name="Eve's Pubescent Baalite" />
+  <passive achievement="11" cache="all" description="Pew down, Fracture way up" gfx="Collectibles_052_DrFetus.png" id="52" name="The Unchronicled Cretins" special="true" />
+  <passive description="Interestingness up" gfx="Collectibles_053_Magneto.png" id="53" name="The Aposematic Gigantomachies" />
+  <passive description="Autostrada down, Sideswiper way up" gfx="Collectibles_054_TreasureMap.png" id="54" name="Guppy's Peristaltic Undauntedness" />
+  <passive description="Ripsnorter up" gfx="Collectibles_055_MomsEye.png" id="55" name="Lazarus's Chasmal Unmanliness" />
+  <active description="Victorian Nightclubberss" gfx="Collectibles_056_LemonMishap.png" id="56" maxcharges="2" name="Mom's Gamiest Bluetits" />
+  <familiar description="Same Sukkahss" gfx="Collectibles_057_DistantAdmiration.png" id="57" name="Pollack" />
+  <active cooldown="300" description="You feel Will-less..." gfx="Collectibles_058_BookOfShadows.png" id="58" maxcharges="3" name="Celandine of Homotypes" />
+  <passive cache="tearflag" description="Smelter down, Ampersand way up" gfx="Collectibles_060_TheLadder.png" id="60" name="Guppy's Cabins" />
+  <passive description="Kingdom down, Rebec way up" gfx="Collectibles_062_CharmOfTheVampire.png" id="62" name="Bob's Rebec" />
+  <passive description="Vomitings down, Urolith way up" gfx="Collectibles_063_TheBattery.png" id="63" name="The Industrialized China" />
+  <passive description="Genic Whirlwindss" gfx="Collectibles_064_SteamSale.png" id="64" name="Tammy's Accountancies" />
+  <active cooldown="35" description="Cytochemistry down, Antidote way up" gfx="Collectibles_065_AnarchistCookbook.png" id="65" maxcharges="3" name="Guppy's Drenched Accountancies" />
+  <active cooldown="230" description="Increasable Antidotes" gfx="Collectibles_066_TheHourglass.png" id="66" maxcharges="2" name="Eden's Bacciferous Lie-abeds" />
+  <familiar description="Welshwoman up" gfx="Collectibles_067_SisterMaggy.png" id="67" name="Rhamphotheca" />
+  <passive cache="all" description="Mezzotints down, Dogsleds way up" gfx="Collectibles_068_Technology.png" id="68" name="The Rembrandtish Hydrangea" />
+  <passive cache="all" description="You feel Seventy-eight..." gfx="Collectibles_069_ChocolateMilk.png" id="69" name="Violation" />
+  <passive cache="damage speed" description="Prayerless Autostradas" gfx="Collectibles_070_GrowthHormones.png" id="70" name="The Deuced Weavings" />
+  <passive cache="speed range" description="Pubescent Abjectnesss" gfx="Collectibles_071_MiniMushroom.png" id="71" name="The Ladylike Trematodes" />
+  <passive description="Burbles down, Bani way up" gfx="Collectibles_072_Rosary.png" id="72" name="The Xerophilous Stompers" soulhearts="6" />
+  <familiar achievement="6" description="Brumbies down, Shape way up" gfx="Collectibles_073_CubeOfMeat.png" id="73" name="Pug" />
+  <passive achievement="10" coins="25" description="Xerophilous Plinks" gfx="Collectibles_074_AQuarter.png" id="74" name="Cytochemistry" />
+  <passive description="Nematocysts up" gfx="Collectibles_075_PHD.png" hearts="4" id="75" name="Monstro's Catchable Slain" />
+  <passive description="Homotype up" gfx="Collectibles_076_XrayVision.png" id="76" name="Cain's Exterminated Hedgehogs" />
+  <active cache="speed" cooldown="180" description="You feel Compulsive..." gfx="Collectibles_077_MyLittleUnicorn.png" id="77" maxcharges="6" name="Maggie's Kittenish Want" />
+  <active achievement="7" description="Heidegger down, Imitability way up" gfx="Collectibles_078_BookOfRevelations.png" id="78" maxcharges="6" name="Maggie's Nymphalids" />
+  <passive cache="damage speed" description="Callaghan up" gfx="Collectibles_079_TheMark.png" id="79" name="Nematocysts" soulhearts="2" />
+  <passive cache="damage firedelay" description="Encouraged Varmentss" devilprice="2" gfx="Collectibles_080_ThePact.png" id="80" name="Eden's Pug" soulhearts="4" />
+  <familiar description="Plink up" gfx="Collectibles_081_DeadCat.png" id="81" name="The Antiodontalgic Talkfests" />
+  <passive cache="flying" description="Emanational Stampedes" devilprice="2" gfx="Collectibles_082_LordOfThePit.png" id="82" name="The Mellifluent Smelter" />
+  <active achievement="9" cache="speed damage" description="Jugate Ruralistss" devilprice="2" gfx="Collectibles_083_TheNail.png" id="83" maxcharges="6" name="Wrangler" />
+  <active description="Downcomers down, Lampas way up" gfx="Collectibles_084_WeNeedToGoDeeper.png" id="84" maxcharges="6" name="Haemostasis of Mouthfulss" />
+  <active description="Gimcrack Manures" gfx="Collectibles_085_DeckOfCards.png" id="85" maxcharges="6" name="The Vinegarish Torridity" />
+  <active achievement="13" description="Mazzini down, Reinspection way up" gfx="Collectibles_086_MonstrosTooth.png" id="86" maxcharges="3" name="Sippet of Collierss" />
+  <passive achievement="15" description="Maestoso Rascasses" gfx="Collectibles_087_LokisHorns.png" id="87" name="Tessituras of Imitabilitys" />
+  <familiar achievement="14" description="Cytochemistry up" gfx="Collectibles_088_LittleChubby.png" id="88" name="The Acerate Curculio" />
+  <passive cache="tearcolor tearflag" description="Redeye down, Scrag way up" gfx="Collectibles_089_SpidersBite.png" id="89" name="Judas's Catchable Jugendstil" />
+  <passive achievement="12" cache="tearcolor damage" description="Yeuks up" gfx="Collectibles_090_SmallRock.png" id="90" name="The Russety Dyarchies" />
+  <passive description="Foreshadowing down, Curculio way up" gfx="Collectibles_091_SpelunkerHat.png" id="91" name="The Wedgy Vomitings" />
+  <passive achievement="19" description="Whirlwinds up" gfx="Collectibles_092_SuperBandage.png" hearts="2" id="92" maxhearts="2" name="The Elamite Bladderworts" soulhearts="4" />
+  <active achievement="26" cooldown="200" description="Daydream down, Molding way up" gfx="Collectibles_093_TheGameKid.png" id="93" maxcharges="6" name="Torridity" />
+  <familiar achievement="21" description="You feel Sinless..." gfx="Collectibles_094_SackOfPennies.png" id="94" name="Judas's Launch" />
+  <familiar description="You feel Victorian..." gfx="Collectibles_095_RoboBaby.png" id="95" name="Cowhides" />
+  <familiar achievement="25" description="Sobriquets up" gfx="Collectibles_096_LittleChad.png" id="96" name="Monstro's Secretariates" />
+  <active achievement="22" description="Photoreceptor up" gfx="Collectibles_097_BookOfSin.png" id="97" maxcharges="4" name="Radicchio of Smelters" />
+  <familiar achievement="20" description="Qumran up" gfx="Collectibles_098_TheRelic.png" id="98" name="Delicate of Clipperss" />
+  <familiar achievement="23" description="Callaghan down, Nematocysts way up" gfx="Collectibles_099_LittleGish.png" id="99" name="Escalades" />
+  <familiar achievement="24" description="Twines down, Molding way up" gfx="Collectibles_100_LittleSteve.png" id="100" name="Self-seekers" />
+  <passive achievement="27" cache="damage firedelay range speed" description="Queer-bashing up" gfx="Collectibles_101_TheHalo.png" hearts="2" id="101" maxhearts="2" name="???'s Futurology" />
+  <active description="Cataloes down, Paramnesia way up" gfx="Collectibles_102_MomsBottleOfPills.png" id="102" maxcharges="6" name="Monstro's Osteophytic Scrag" />
+  <passive cache="tearcolor tearflag" description="Colliers up" gfx="Collectibles_103_TheCommonCold.png" id="103" name="Judas's Chafferers" />
+  <passive achievement="31" cache="tearcolor tearflag" description="Bowman up" gfx="Collectibles_104_TheParasite.png" id="104" name="Infighting of Pews" />
+  <active achievement="29" description="Tessituras up" gfx="Collectibles_105_Dice.png" id="105" maxcharges="6" name="The Unreplaceable Daydream" special="true" />
+  <passive achievement="28" bombs="5" description="Antiodontalgic Outparishs" gfx="Collectibles_106_MrMega.png" id="106" name="Concocters" />
+  <active cache="familiars" description="Rebec up" gfx="Collectibles_107_PinkingShears.png" id="107" maxcharges="6" name="The Kittenish Gloriosas" />
+  <passive description="Springlike Curculios" gfx="Collectibles_108_TheWafer.png" id="108" name="Judas's Funereal Submergence" />
+  <passive cache="damage" description="You feel Genic..." gfx="Collectibles_109_MoneyisPower.png" id="109" name="Eden's Period" />
+  <passive achievement="35" cache="tearcolor tearflag" description="A-ok Self-seekerss" gfx="Collectibles_110_MomsContacts.png" id="110" name="Guppy's Varments" />
+  <active description="Sideswiper down, Backsword way up" gfx="Collectibles_111_TheBean.png" id="111" maxcharges="1" name="Tammy's Yeuks" />
+  <familiar achievement="45" description="Trishaw down, Exerciser way up" gfx="Collectibles_112_GuardianAngel.png" id="112" name="Azazel's Revivalistic Carnalism" />
+  <familiar achievement="47" description="You feel Unaspiring..." gfx="Collectibles_113_DemonBaby.png" id="113" name="Azazel's Glamorgan" />
+  <passive achievement="43" cache="all" description="Sonship down, Tunisia way up" devilprice="2" gfx="Collectibles_114_MomsKnife.png" id="114" name="Molding" special="true" />
+  <passive cache="tearflag tearcolor" description="You feel Cinematographic..." gfx="Collectibles_115_OuijaBoard.png" id="115" name="Max's Unpraiseworthy Welshwoman" />
+  <passive description="Lie-abeds up" gfx="Collectibles_116_9Volt.png" id="116" name="Jugendstil of Impromptus" />
+  <passive cache="familiars" description="Griskins down, Akees way up" gfx="Collectibles_117_DeadBird.png" id="117" name="Lie-abeds" />
+  <passive cache="all" description="Telegonic Flavouringss" devilprice="2" gfx="Collectibles_118_Brimstone.png" id="118" name="Max's Akees" special="true" />
+  <passive achievement="147" cache="speed" description="You feel Substandard..." gfx="Collectibles_119_BloodBag.png" hearts="10" id="119" maxhearts="2" name="The Humic Secretariates" />
+  <passive cache="damage firedelay speed" description="You feel Neuronic..." gfx="Collectibles_120_OddMushroomThin.png" id="120" name="???'s Hypothecs" />
+  <passive cache="damage speed range" description="Reparative Massifss" gfx="Collectibles_121_OddMushroomLarge.png" id="121" maxhearts="2" name="The Dunked Incurvations" />
+  <passive cache="damage speed" description="Breezy Syndicss" gfx="Collectibles_122_WhoreOFBabylon.png" id="122" name="???'s Rectangular Proletariat" />
+  <active description="You feel Intensifying..." gfx="Collectibles_123_MonsterManual.png" id="123" maxcharges="3" name="The Forestal Scrag" />
+  <active description="You feel Unblocked..." gfx="Collectibles_124_DeadSeaScrolls.png" id="124" maxcharges="2" name="Dad's Jacketed Lie-abeds" />
+  <passive bombs="5" description="You feel Stenophyllous..." gfx="Collectibles_125_BobbyBomb.png" id="125" name="Redeye" />
+  <active achievement="44" cache="damage" description="Ampersand down, Heidegger way up" gfx="Collectibles_126_RazorBlade.png" id="126" maxcharges="0" name="Dad's Fervent Urolith" />
+  <active achievement="48" description="You feel Strip..." gfx="Collectibles_127_ForgetMeNow.png" id="127" maxcharges="1" name="Burbles" />
+  <familiar description="Vomitings down, Stampede way up" gfx="Collectibles_128_ForeverAlone.png" id="128" name="Invalidation" />
+  <passive cache="speed" description="Downcomers up" gfx="Collectibles_129_BucketofLard.png" hearts="1" id="129" maxhearts="4" name="Laotian" />
+  <active cache="flying speed" description="Rosin down, Chafferers way up" gfx="Collectibles_130_APony.png" id="130" maxcharges="4" name="Zymurgy of Fidelios" />
+  <familiar achievement="46" description="Contraposition up" gfx="Collectibles_131_BombBag.png" id="131" name="Lazarus's Cream Areolation" />
+  <passive cache="damage tearflag tearcolor" description="You feel Annulated..." gfx="Collectibles_132_ALumpOfCoal.png" id="132" name="Penn'orths" />
+  <active description="Tessituras up" gfx="Collectibles_133_GuppysPaw.png" id="133" maxcharges="0" name="The Ungauged Submergence" />
+  <passive description="Shives down, Clippers way up" gfx="Collectibles_134_GuppysTail.png" id="134" name="Calutrons" />
+  <active cooldown="15" description="Falderals up" gfx="Collectibles_135_IVBag.png" id="135" maxcharges="0" name="Isaac's Milled Falderals" />
+  <active description="Flavourings up" gfx="Collectibles_136_BestFriend.png" id="136" maxcharges="3" name="The Russety Sonship" />
+  <active bombs="5" cooldown="2" description="Falcate Normss" gfx="Collectibles_137_RemoteDetonator.png" id="137" maxcharges="0" name="Twines" />
+  <passive cache="damage" description="Chasmal Murrumbidgees" gfx="Collectibles_138_Stigmata.png" hearts="2" id="138" maxhearts="2" name="Atomy" />
+  <passive description="Oncogenic Princelings" gfx="Collectibles_139_MomsPurse.png" id="139" name="Bob's Cerated Wrangler" />
+  <passive bombs="5" description="Seismological Exercisers" gfx="Collectibles_140_BobsCurse.png" id="140" name="Napkin of Repellences" />
+  <passive description="Akees up" gfx="Collectibles_141_PageantBoy.png" id="141" name="Cricket's Lated Tocher" />
+  <passive description="Detector down, Bani way up" gfx="Collectibles_142_Scapular.png" id="142" name="Lucidness" />
+  <passive cache="speed shotspeed" description="You feel Ascitical..." gfx="Collectibles_143_Speedball.png" id="143" name="Monstro's Scauper" />
+  <familiar description="Cultrate Fire-plows" gfx="Collectibles_144_BumFriend.png" id="144" name="The Lifeful Manure" />
+  <active description="Manure up" gfx="Collectibles_145_GuppysHead.png" id="145" maxcharges="1" name="Loki's Unmanliness" />
+  <active description="Tagore up" gfx="Collectibles_146_PrayerCard.png" id="146" maxcharges="6" name="Escalades of Tochers" />
+  <active description="Loggers down, Chronogram way up" gfx="Collectibles_147_NotchedAxe.png" id="147" maxcharges="3" name="Massifs of Inscriptionss" />
+  <passive description="Hole-and-corner Pilferages" gfx="Collectibles_148_Infestation.png" id="148" name="Diathermy" />
+  <passive achievement="140" cache="all" description="You feel Topological..." gfx="Collectibles_149_Ipecac.png" id="149" name="Violation of Inscriptionss" />
+  <passive description="Invaginate Meddlings" gfx="Collectibles_150_ToughLove.png" id="150" name="Odontoblasts of Bluetitss" />
+  <passive cache="tearflag" description="Fracture down, Whirlwinds way up" gfx="Collectibles_151_TheMulligan.png" id="151" name="Tagore of Brumbiess" />
+  <passive cache="weapon damage" description="Jugendstil down, Merchant way up" gfx="Collectibles_152_Technology2.png" id="152" name="Emphysemas of Princelings" />
+  <passive cache="firedelay" description="Beastliest Foreshadowings" gfx="Collectibles_153_MutantSpider.png" id="153" name="Moonbeam of Baalites" special="true" />
+  <passive cache="damage" description="Feather up" gfx="Collectibles_154_ChemicalPeel.png" id="154" name="???'s Perrault" />
+  <familiar description="You feel Quarterly..." gfx="Collectibles_155_ThePeeper.png" id="155" name="Shives of Repellences" />
+  <passive description="Isogeotherms down, Sideswiper way up" gfx="Collectibles_156_Habit.png" id="156" name="Nightclubbers of Exercisers" />
+  <passive achievement="54" cache="damage" description="Exterior up" gfx="Collectibles_157_BloodyLust.png" id="157" name="The Unblocked Edgar" />
+  <active description="You feel Nosy..." gfx="Collectibles_158_CrystalBall.png" id="158" maxcharges="6" name="Judas's Mitigated Tatous" />
+  <passive cache="flying tearflag tearcolor" description="Epidermises up" devilprice="2" gfx="Collectibles_159_SpiritOfTheNight.png" id="159" name="Disgrace of Calutronss" />
+  <active cooldown="30" description="Entire Tagores" gfx="Collectibles_160_CrackTheSky.png" id="160" maxcharges="4" name="Adipocere" />
+  <passive description="Immanuel up" gfx="Collectibles_161_Ankh.png" id="161" name="The Trying Shives" />
+  <passive achievement="50" cooldown="200" description="Coss up" gfx="Collectibles_162_CelticCross.png" id="162" name="Doctor's Springwood" />
+  <familiar description="Impertinent Pycnometers" gfx="Collectibles_163_GhostBaby.png" id="163" name="Cain's Humic Diathermy" />
+  <active achievement="59" description="Carbonated Wants" gfx="Collectibles_164_BlueCandle.png" id="164" maxcharges="110" name="Eden's Strongholds" />
+  <passive cache="shotspeed damage" description="Nightclubbers down, Front-runner way up" gfx="Collectibles_165_CatONineTails.png" id="165" name="Sobriquets" />
+  <active achievement="49" description="Chafferers down, Legitimist way up" gfx="Collectibles_166_D20.png" id="166" maxcharges="6" name="Infighting" />
+  <familiar description="You feel Unsympathizing..." gfx="Collectibles_167_HarlequinBaby.png" id="167" name="Sippet of Moldings" />
+  <passive achievement="62" cache="all" description="You feel Staminiferous..." gfx="Collectibles_168_EpicFetus.png" id="168" name="Eve's Governing Tessituras" special="true" />
+  <passive cache="damage firedelay tearflag" description="You feel Deltoid..." gfx="Collectibles_169_Polyphemus.png" id="169" name="Loki's Musicalness" special="true" />
+  <familiar description="Places up" gfx="Collectibles_170_DaddyLonglegs.png" id="170" name="Places of Torriditys" />
+  <active cooldown="120" description="Lutetia down, Tickers way up" gfx="Collectibles_171_SpiderButt.png" id="171" maxcharges="2" name="Cain's Passableness" />
+  <familiar achievement="53" description="Theralite Ruralistss" gfx="Collectibles_172_SacrificialDagger.png" id="172" name="Bowman" />
+  <passive description="Analogous Griskinss" gfx="Collectibles_173_Mitre.png" id="173" name="Samson's Anglophile" />
+  <familiar description="Governing Kramerias" gfx="Collectibles_174_RainbowBaby.png" id="174" name="Isaac's Mortal Akees" />
+  <active achievement="58" description="You feel At-home..." gfx="Collectibles_175_DadsKey.png" id="175" maxcharges="2" name="Restitutions" />
+  <passive cache="shotspeed" description="Monocled Queer-bashings" gfx="Collectibles_176_StemCells.png" hearts="2" id="176" maxhearts="2" name="Distilland of Musicalnesss" />
+  <active cooldown="30" description="Treacherous Flavouringss" gfx="Collectibles_177_PortableSlot.png" id="177" maxcharges="0" name="Cain's Matrilocal Manure" />
+  <familiar description="You feel Hepatic..." gfx="Collectibles_178_HolyWater.png" id="178" name="The Finished Self-seekers" />
+  <passive achievement="113" cache="flying" description="Capelin up" gfx="Collectibles_179_Fate.png" id="179" name="Laotian of Infightings" />
+  <passive description="Emphysemas up" gfx="Collectibles_180_BlackBean.png" id="180" name="Radicchio" />
+  <active cache="flying speed" description="Push-button Anglophiles" gfx="Collectibles_181_WhitePony.png" id="181" maxcharges="6" name="Samson's Dicotyledonous Origanum" />
+  <passive cache="damage firedelay range shotspeed tearcolor tearflag" description="Gonocytes up" gfx="Collectibles_182_SacredHeart.png" hearts="99" id="182" maxhearts="2" name="Loki's Impertinent Commonplaces" special="true" />
+  <passive cache="shotspeed firedelay" description="Smelter down, Infighting way up" gfx="Collectibles_183_ToothPicks.png" id="183" name="Dad's Rebec" />
+  <passive cache="flying" description="Tocher up" gfx="Collectibles_184_HolyGrail.png" hearts="2" id="184" maxhearts="2" name="The Bobtail Cockateel" />
+  <passive cache="flying tearflag tearcolor" description="Flavorous Dakars" gfx="Collectibles_185_DeadDove.png" id="185" name="Jellyfishes of Cataloess" />
+  <active achievement="56" description="Supervenient Princelings" gfx="Collectibles_186_BloodRights.png" id="186" maxcharges="0" name="Oolith of Griskinss" />
+  <familiar achievement="65" description="Unsympathizing Biscays" gfx="Collectibles_187_GuppysHairball.png" id="187" name="Nematocysts of Bowmans" />
+  <familiar achievement="51" description="Funereal Rosins" gfx="Collectibles_188_Abel.png" id="188" name="Princeling of Downcomerss" />
+  <passive achievement="63" cache="firedelay damage speed range" description="You feel Ethic..." gfx="Collectibles_189_SMBSuperFan.png" hearts="99" id="189" maxhearts="2" name="The Unreplaceable Dyarchies" />
+  <passive bombs="99" description="Judo up" gfx="Collectibles_190_Pyro.png" id="190" name="Sonship" />
+  <passive description="Haemostasis down, Cruet-stand way up" gfx="Collectibles_191_3DollarBill.png" id="191" name="Guppy's Springwood" />
+  <active cache="tearflag tearcolor" description="Spinulose Edgars" gfx="Collectibles_192_TelepathyForDummies.png" id="192" maxcharges="2" name="Loki's Christianiser" />
+  <passive cache="damage" description="Chasmal Qumrans" gfx="Collectibles_193_Meat.png" hearts="2" id="193" maxhearts="2" name="Adipocere of Pycnometers" />
+  <passive cache="shotspeed" description="Busy Falderalss" gfx="Collectibles_194_Magic8Ball.png" id="194" name="The Victorian Rhamphotheca" />
+  <passive description="You feel Unemployed..." gfx="Collectibles_195_MomsCoinPurse.png" id="195" name="Tammy's Repellence" />
+  <passive cache="firedelay" description="Napkin down, Judo way up" gfx="Collectibles_196_Squeezy.png" id="196" name="Colliers of Incurvationss" />
+  <passive cache="damage range" description="You feel Strip..." gfx="Collectibles_197_JesusJuice.png" id="197" name="The Sleepier Vomitings" />
+  <passive description="Haulages up" gfx="Collectibles_198_Box.png" id="198" name="Akees" />
+  <passive description="You feel Unsatable..." gfx="collectibles_199_momskey.png" id="199" keys="2" name="Tammy's Massifs" />
+  <passive cache="tearcolor" description="Ungauged Haemostasiss" gfx="collectibles_200_momseyeshadow.png" id="200" name="Nightclubbers" />
+  <passive cache="damage" description="Restitutions down, Anglophile way up" gfx="collectibles_201_ironbar.png" id="201" name="Azazel's Exterminated Talkfests" />
+  <passive description="Brew down, Fracture way up" gfx="collectibles_202_midastouch.png" id="202" name="Rhamphotheca of Nematocystss" />
+  <passive description="Houseguest down, Popularizers way up" gfx="collectibles_203_humblingbundle.png" id="203" name="Nightclubbers" />
+  <passive description="You feel Diplex..." gfx="collectibles_204_fannypack.png" id="204" name="Tammy's Objurgatory Period" />
+  <passive description="Princeling down, Carnalism way up" gfx="collectibles_205_sharpplug.png" id="205" name="Rascasse of Nematocystss" />
+  <familiar achievement="107" cache="damage firedelay" description="Abjectness up" gfx="collectibles_206_guillotine.png" id="206" name="Incurvations of Akeess" />
+  <familiar achievement="6" description="Papaveraceous Euripuss" gfx="collectibles_207_ballofbandages.png" id="207" name="The Wedgy Trammel" />
+  <passive cache="damage" description="Nosy Misgivingss" gfx="collectibles_208_championbelt.png" id="208" name="Max's Want" />
+  <passive bombs="5" description="Pilferage down, Odontoblasts way up" gfx="collectibles_209_buttbombs.png" id="209" name="Musicalness" />
+  <passive description="You feel Fragrant..." gfx="Collectibles_210_GnawedLeaf.png" id="210" name="The Emanational Manure" />
+  <passive description="You feel Falcate..." gfx="collectibles_211_spiderbaby.png" id="211" name="The Jacketed Lie-abeds" />
+  <passive description="You feel Topological..." gfx="Collectibles_212_GuppysCollar.png" id="212" name="Hydrangea of Gonocytess" />
+  <passive cache="shotspeed" description="Secretariates up" gfx="collectibles_213_lostcontact.png" id="213" name="Guppy's Carnalism" />
+  <passive cache="range" description="You feel Ungauged..." gfx="collectibles_214_anemic.png" id="214" name="The Ethic Premedication" />
+  <passive cache="damage" description="Ripsnorter up" gfx="collectibles_215_goathead.png" id="215" name="Brumbies" />
+  <passive blackhearts="6" cache="damage" description="Fevers up" gfx="Collectibles_216_CeremonialRobes.png" id="216" name="Doctor's Clovery Nematocysts" />
+  <passive cache="firedelay" description="Unblocked Tickerss" gfx="collectibles_217_momswig.png" hearts="2" id="217" name="Fevers of Euripuss" />
+  <passive description="Exerciser down, Autostrada way up" gfx="collectibles_218_placenta.png" hearts="2" id="218" maxhearts="2" name="???'s Distilland" />
+  <passive description="Dogsleds down, Tunisia way up" gfx="collectibles_219_oldbandage.png" id="219" maxhearts="2" name="Perrault of Sashess" />
+  <passive bombs="5" description="You feel Genic..." gfx="collectibles_220_sadbombs.png" id="220" name="Serialists" />
+  <passive achievement="150" cache="tearcolor tearflag" description="Gapeseed down, Contraposition way up" gfx="collectibles_221_rubbercement.png" id="221" name="Colliers of Spathiphyllums" />
+  <passive cache="firedelay tearflag" description="Paramnesia down, Supplementaries way up" gfx="collectibles_222_antigravity.png" id="222" name="Cricket's Sinless Malisons" />
+  <passive bombs="5" description="Supervenient Jellyfishess" gfx="collectibles_223_pyromaniac.png" id="223" name="The Exosporous Chatoyant" special="true" />
+  <passive cache="firedelay range tearflag" description="Agoraphobic Feverss" gfx="collectibles_224_cricketsbody.png" id="224" name="Griskins of Hedgehogss" />
+  <passive description="Bobtail Delicates" gfx="collectibles_225_gimpy.png" id="225" name="The Lit Tunisia" />
+  <passive blackhearts="2" description="Exosporous A-bombs" gfx="collectibles_226_blacklotus.png" hearts="2" id="226" maxhearts="2" name="Serialists of Nymphalidss" soulhearts="2" />
+  <passive coins="3" description="Interpolative Sobriquetss" gfx="collectibles_227_piggybank.png" id="227" name="The Forestal Brumbies" />
+  <passive cache="firedelay tearcolor" description="Milled Bookkeeperss" gfx="collectibles_228_momsperfume.png" id="228" name="Reinspection" />
+  <passive cache="all" description="Trishaw down, Unmanliness way up" gfx="collectibles_229_monstroslung.png" id="229" name="The Substandard Napkin" />
+  <passive achievement="128" cache="damage speed" description="You feel Fervent..." devilprice="2" gfx="collectibles_230_abaddon.png" id="230" name="Max's Metapsychological Foreshadowing" />
+  <passive cache="tearcolor" description="You feel Russety..." gfx="collectibles_231_balloftar.png" id="231" name="Isaac's Autostrada" />
+  <passive achievement="138" cache="speed" description="You feel Verbenaceous..." gfx="collectibles_232_stopwatch.png" id="232" name="Merchant of Hypothecss" />
+  <passive cache="all" description="Telling up" gfx="collectibles_233_tinyplanet.png" id="233" name="Gapeseed" />
+  <passive description="You feel Ladylike..." gfx="collectibles_234_infestation2.png" id="234" name="Eve's Compulsive Mazzini" />
+  <passive description="You feel Syndactyl..." gfx="collectibles_236_ecoli.png" id="236" name="Liquefiers of Escaladess" />
+  <passive achievement="103" cache="tearflag firedelay damage" description="Mazzini down, Hedgehogs way up" devilprice="2" gfx="collectibles_237_deathstouch.png" id="237" name="Zymurgy" />
+  <familiar description="Gapeseed up" gfx="collectibles_238_keypiece1.png" id="238" name="Isaac's Oxcart" />
+  <familiar description="You feel Calumnious..." gfx="collectibles_239_keypiece2.png" id="239" name="Strongholds" />
+  <passive achievement="141" cache="all" description="Hard-headed Delicates" gfx="collectibles_240_experimentaltreatment.png" id="240" name="Coss of Tochers" />
+  <passive description="Topological Sweeps" gfx="collectibles_241_contractfrombelow.png" id="241" name="Bladderworts of Gapeseeds" />
+  <passive description="You feel Ungauged..." gfx="collectibles_242_infamy.png" id="242" name="Palpability of Eczemas" />
+  <passive cache="weapon" description="You feel Bespattered..." gfx="collectibles_243_trinityshield.png" id="243" name="Penn'orths of Autostradas" />
+  <passive achievement="104" description="Meddling down, Places way up" gfx="collectibles_244_techpointfive.png" id="244" name="Biscay" />
+  <passive description="You feel Gimcrack..." gfx="collectibles_245_2020.png" id="245" name="The Clayish Tickers" />
+  <passive achievement="134" description="Snowlike Scrags" gfx="collectibles_246_bluemap.png" id="246" name="Flyspeck of Griskinss" />
+  <passive description="Histoblast down, Sweep way up" gfx="collectibles_247_bffs.png" id="247" name="Eczema of Sabbaths" />
+  <passive description="You feel Substandard..." gfx="collectibles_248_hivemind.png" id="248" name="Bimetallists" />
+  <passive achievement="135" description="Misgivings up" gfx="collectibles_249_theresoptions.png" id="249" name="The All Manure" />
+  <passive description="Cretins up" gfx="collectibles_250_bogobombs.png" id="250" name="Exerciser of Torriditys" />
+  <passive description="You feel Woodwind..." gfx="collectibles_251_starterdeck.png" id="251" name="Bob's Tangy Legitimist" />
+  <passive achievement="146" description="Affixes up" gfx="collectibles_252_littlebaggy.png" id="252" name="Baalite of Periods" />
+  <passive cache="luck" description="You feel High-fidelity..." gfx="collectibles_253_magicscab.png" hearts="2" id="253" maxhearts="2" name="Exerciser" />
+  <passive description="Sobriquets up" gfx="collectibles_254_bloodclot.png" id="254" name="The Victorian Accountancies" />
+  <passive cache="firedelay shotspeed" description="Violation up" gfx="collectibles_255_screw.png" id="255" name="The Pubescent Ruralists" />
+  <passive bombs="5" description="Backsword down, Foreshadowing way up" gfx="collectibles_256_hotbombs.png" id="256" name="Isaac's Finished Appellants" />
+  <passive cache="tearflag" description="You feel Bacciferous..." gfx="collectibles_257_firemind.png" id="257" name="Azazel's Premedication" />
+  <passive achievement="105" cache="all" description="Photoreceptor down, Macromolecule way up" gfx="collectibles_258_missingno.png" id="258" name="Isaac's Entire Ruralists" />
+  <passive cache="damage" description="You feel Unloaded..." gfx="collectibles_259_darkmatter.png" id="259" name="Doctor's Abjectness" />
+  <passive achievement="136" blackhearts="2" cache="damage" description="Hypothecs up" gfx="collectibles_260_blackcandle.png" id="260" name="Cricket's Basicity" />
+  <passive cache="tearflag damage" description="Merchant down, Tickers way up" gfx="collectibles_261_proptosis.png" id="261" name="The Push-button Drum" />
+  <passive blackhearts="2" cache="damage" description="Gonocytes up" gfx="collectibles_262_missingpage2.png" id="262" name="Unmanliness" />
+  <familiar description="You feel Somnific..." gfx="collectibles_264_smartfly.png" id="264" name="The Subbasal Fevers" />
+  <familiar description="You feel Insalubrious..." gfx="collectibles_265_drybaby.png" id="265" name="Tocher" />
+  <familiar description="Impromptu down, Violation way up" gfx="collectibles_266_juicysack.png" id="266" name="The Seismological Tagore" />
+  <familiar achievement="102" description="Napkin up" gfx="collectibles_267_robobaby2.png" id="267" name="Azazel's Dead Bluetits" />
+  <familiar description="You feel Ripe..." gfx="collectibles_268_rottenbaby.png" id="268" name="Places of Ooliths" />
+  <familiar description="Podgy Hedgehogss" gfx="collectibles_269_headlessbaby.png" id="269" name="Loki's Chirpy Varments" />
+  <familiar description="You feel Scabbier..." gfx="collectibles_270_leech.png" id="270" name="Macromolecule" />
+  <familiar achievement="124" description="Guideless Sweeps" gfx="collectibles_271_mysterysack.png" id="271" name="Eve's Counterclockwise Affixes" />
+  <familiar description="Pycnometer up" gfx="collectibles_272_bff.png" id="272" name="The Jugate Rascasse" />
+  <familiar description="You feel A-ok..." gfx="collectibles_273_bobsbrain.png" id="273" name="Corallines of Clipperss" />
+  <familiar description="Fracture up" gfx="collectibles_274_bestbud.png" id="274" name="Supplementaries of Restitutionss" />
+  <familiar description="Reinspection up" devilprice="2" gfx="collectibles_275_lilbrimstone.png" id="275" name="Departure" />
+  <familiar achievement="129" description="Ruralists up" gfx="collectibles_276_isaacsheart.png" id="276" name="Max's Frosted Cytochemistry" />
+  <familiar description="You feel Hallstatt..." gfx="collectibles_277_lilhaunt.png" id="277" name="Monstro's Murrumbidgee" />
+  <familiar description="Repellence down, Legitimist way up" gfx="collectibles_278_darkbum.png" id="278" name="Cain's Protogynous Dyarchies" />
+  <familiar description="You feel Stone-cold..." gfx="collectibles_279_bigfan.png" id="279" name="The Mitigated Lucidness" />
+  <familiar description="Quarterly Violations" gfx="collectibles_280_sissylonglegs.png" id="280" name="Maggie's Diplex Origanum" />
+  <familiar description="Dicotyledonous Edgars" gfx="collectibles_281_punchingbag.png" id="281" name="Cain's Rotting Cowhides" />
+  <active cooldown="14" description="Inauthentic Histoblasts" gfx="collectibles_282_howtojump.png" id="282" maxcharges="0" name="Guppy's Protogynous Zymurgy" />
+  <active achievement="133" description="You feel A-ok..." gfx="collectibles_283_d100.png" id="283" maxcharges="6" name="???'s Seismological Handiworks" special="true" />
+  <active achievement="148" description="Drum down, Chatoyant way up" gfx="collectibles_284_d4.png" id="284" maxcharges="6" name="Popularizers of Judos" />
+  <active description="Kittenish Merchants" gfx="collectibles_285_d10.png" id="285" maxcharges="1" name="Callaghan of Ooliths" />
+  <active achievement="121" description="You feel Lit..." gfx="collectibles_286_blankcard.png" id="286" maxcharges="4" name="Smelter of Princelings" />
+  <active achievement="122" description="Torridity up" gfx="collectibles_287_bookofsecrets.png" id="287" maxcharges="6" name="Eve's Hard-headed Rascasse" />
+  <active description="Flush Detectors" gfx="collectibles_288_boxofspiders.png" id="288" maxcharges="2" name="???'s Commendable Sabbath" />
+  <active achievement="137" description="Conquistador up" gfx="collectibles_289_redcandle.png" id="289" maxcharges="110" name="Cain's Two-a-penny Callaghan" />
+  <active description="Ravening Sideswipers" gfx="collectibles_290_thejar.png" id="290" maxcharges="0" name="Monstro's Mezzotints" />
+  <active description="You feel Metapsychological..." gfx="collectibles_291_flush.png" id="291" maxcharges="6" name="Bluetits of Plinks" />
+  <active achievement="126" description="Moonbeam down, Areolation way up" devilprice="2" gfx="collectibles_292_satanicbible.png" id="292" maxcharges="6" name="The Telegonic Nightclubbers" />
+  <active achievement="143" description="Smelter down, Macromolecule way up" gfx="collectibles_293_headofkrampus.png" id="293" maxcharges="6" name="Judas's Gapeseed" />
+  <active achievement="145" description="Hypothecs up" gfx="collectibles_294_butterbean.png" id="294" maxcharges="90" name="Max's Xerophilous Stampede" />
+  <active description="Disembodied Epidermisess" gfx="collectibles_295_magicfingers.png" id="295" maxcharges="0" name="Departure of Legitimists" />
+  <active description="Vomitings down, Shives way up" gfx="collectibles_296_converter.png" id="296" maxcharges="0" name="Doctor's Beastliest Invalidation" />
+  <active achievement="119" description="Ascitical Gonocytess" gfx="collectibles_297_bluebox.png" id="297" maxcharges="0" name="Lazarus's Egalitarian Griskins" />
+  <active cache="speed" cooldown="180" description="Salmonellas up" gfx="collectibles_298_unicornstump.png" id="298" maxcharges="1" name="Loggers" />
+  <passive cache="speed" description="Frosted Musicalnesss" gfx="collectibles_299_taurus.png" id="299" name="Tessituras" />
+  <passive cache="speed" description="Biscay down, Verses way up" gfx="collectibles_300_aries.png" id="300" name="Maggie's Unconsummated Norms" />
+  <passive description="Mortal Sweeps" gfx="collectibles_301_cancer.png" id="301" name="Gapeseed of Commonplacess" soulhearts="6" />
+  <passive description="Houseguest up" gfx="collectibles_302_leo.png" id="302" name="Krameria of Zymurgys" />
+  <passive description="You feel Wedgy..." gfx="collectibles_303_virgo.png" id="303" name="The Blate Shape" />
+  <passive bombs="6" cache="speed firedelay damage range" coins="6" description="Hepatic Sippets" gfx="collectibles_304_libra.png" id="304" keys="6" name="Eve's Loggers" />
+  <passive cache="tearflag" description="Cartesian Antidotes" gfx="collectibles_305_scorpio.png" id="305" name="Inscriptions of Lampass" />
+  <passive cache="tearflag speed" description="Oceanian Stampedes" gfx="collectibles_306_sagittarius.png" id="306" name="Houseguest of Cabinss" />
+  <passive bombs="1" cache="speed firedelay damage range" coins="1" description="Histoblast down, Pug way up" gfx="collectibles_307_capricorn.png" hearts="2" id="307" keys="1" maxhearts="2" name="Foreshadowing" />
+  <passive description="Smelter down, Tessituras way up" gfx="collectibles_308_aquarius.png" id="308" name="Mom's Funereal Daydream" />
+  <passive cache="firedelay tearflag" description="Thickeners down, Gigantomachies way up" gfx="collectibles_309_pisces.png" id="309" name="Cain's Granulation" />
+  <passive achievement="112" cache="shotspeed damage tearcolor firedelay" description="Trematodes up" gfx="collectibles_310_evesmascara.png" id="310" name="Lazarus's Drenched Manure" />
+  <passive achievement="108" description="Rhamphotheca up" devilprice="2" gfx="collectibles_311_judasshadow.png" id="311" name="Mom's Unemployed Bedclothes" />
+  <passive achievement="109" description="Want down, Slain way up" gfx="collectibles_312_maggysbow.png" hearts="2" id="312" maxhearts="2" name="Cain's Tinted Pilferage" />
+  <passive description="Topological Strongholdss" gfx="collectibles_313_holymantle.png" id="313" name="Photoreceptor" />
+  <passive cache="speed" description="Chasmal Curculios" gfx="collectibles_314_thunderthighs.png" hearts="2" id="314" maxhearts="2" name="Houseguest" />
+  <passive cache="tearflag" description="You feel Podgy..." gfx="collectibles_315_strangeattractor.png" id="315" name="Cain's Diplex Curculio" />
+  <passive cache="all" description="Malisons down, Electroplates way up" gfx="collectibles_316_cursedeye.png" id="316" name="Spathiphyllum" />
+  <passive cache="tearflag" description="Capelin up" gfx="collectibles_317_mysteriousliquid.png" id="317" name="Abjectness of Invalidations" />
+  <familiar description="Clippers up" gfx="collectibles_318_gemini.png" id="318" name="Appellants of Incurvationss" />
+  <familiar achievement="110" description="Deprived Perraults" gfx="collectibles_319_cainseye.png" id="319" name="Dogsleds" />
+  <familiar achievement="114" description="Capelin down, Celandine way up" gfx="collectibles_320_bluebabysonlyfriend.png" id="320" name="The Bouncy Norms" />
+  <familiar achievement="115" description="Serialists up" gfx="collectibles_321_samsonschains.png" id="321" name="Monstro's Christianiser" />
+  <familiar description="Amber Liquefierss" gfx="collectibles_322_mongobaby.png" id="322" name="Samson's Pop-up Sabbath" />
+  <active achievement="106" description="Angie down, Wires way up" gfx="collectibles_323_isaacstears.png" id="323" maxcharges="6" name="Maggie's Loggers" />
+  <active achievement="125" description="You feel Humic..." gfx="collectibles_324_Undefined.png" id="324" maxcharges="6" name="Doctor's Undeliberate Bowman" />
+  <active achievement="30" cache="familiars" description="You feel Oncogenic..." gfx="collectibles_325_scissors.png" id="325" maxcharges="2" name="Tocher of Asclepiads" />
+  <active cooldown="31" description="Haulages down, Incurvations way up" gfx="collectibles_326_breathoflife.png" id="326" maxcharges="6" name="The Johannine Haulages" />
+  <passive achievement="57" cooldown="150" description="Weavings down, Antidote way up" gfx="collectibles_327_thepolaroid.png" id="327" name="Ripsnorter" />
+  <passive achievement="78" description="Trainless Twiness" gfx="collectibles_328_thenegative.png" id="328" name="The Double-faced Secretariates" />
+  <passive cache="all" description="Krameria up" gfx="collectibles_329_theludovicotechnique.png" id="329" name="Concocters of Popularizerss" special="true" />
+  <passive cache="firedelay damage tearcolor" description="Unmanliness down, Tickers way up" gfx="collectibles_330_soymilk.png" id="330" name="Lazarus's Chafferers" />
+  <passive achievement="156" cache="tearflag shotspeed firedelay range damage" description="Serialists up" gfx="collectibles_331_godhead.png" id="331" name="Lie-abeds" special="true" />
+  <passive achievement="116" cache="" description="Sippet up" gfx="collectibles_332_lazarusrags.png" id="332" name="Maggie's Shickered Protoplast" />
+  <passive achievement="130" cache="" description="Exerciser up" gfx="collectibles_333_mind.png" id="333" name="Impromptu" />
+  <passive achievement="131" cache="" description="You feel Encouraged..." gfx="collectibles_334_body.png" hearts="6" id="334" maxhearts="6" name="Popularizers of Falderalss" />
+  <passive achievement="132" cache="" description="Talkfests up" gfx="collectibles_335_soul.png" id="335" name="Maggie's Glummest Lutetia" soulhearts="4" />
+  <passive cache="tearcolor tearflag range shotspeed" description="Massifs down, Outparish way up" gfx="collectibles_336_deadonion.png" id="336" name="Tammy's Misgivings" />
+  <passive cache="" description="Gemsbok up" gfx="collectibles_337_brokenwatch.png" id="337" name="The Unraked Granulation" />
+  <active description="Two-a-penny Cabinss" gfx="collectibles_338_boomerang.png" id="338" maxcharges="70" name="Glamorgan of Impromptus" />
+  <passive blackhearts="2" cache="range shotspeed damage" description="Oxcart up" gfx="collectibles_339_SafetyPin.png" id="339" name="Lazarus's Kittenish Krameria" />
+  <passive cache="speed" description="You feel Scabbier..." gfx="collectibles_340_CaffeinePill.png" id="340" name="Celandine of Asclepiads" />
+  <passive cache="shotspeed firedelay" description="Interestingness up" gfx="collectibles_341_TornPhoto.png" id="341" name="Scrag" />
+  <passive cache="shotspeed firedelay" description="Scrag up" gfx="collectibles_342_BlueCap.png" hearts="2" id="342" maxhearts="2" name="Isaac's Histoblast" />
+  <passive cache="luck" description="Scrag down, Lie-abeds way up" gfx="collectibles_343_LatchKey.png" id="343" name="Gullibility of Conquistadors" soulhearts="2" />
+  <passive blackhearts="2" cache="damage" description="Qumran down, Sukkahs way up" gfx="collectibles_344_MatchBook.png" id="344" name="Isaac's Seventy-eight Drum" />
+  <passive cache="damage range" description="You feel Played-out..." gfx="collectibles_345_Synthoil.png" id="345" name="Wrangler" />
+  <passive description="Siamese Reinspections" gfx="collectibles_346_ASnack.png" hearts="2" id="346" maxhearts="2" name="Mom's Hallstatt Liquefiers" />
+  <active description="You feel Parsonical..." gfx="Collectibles_347_Diplopia.png" id="347" maxcharges="0" name="The Supervenient Brumbies" />
+  <active description="Pug up" gfx="Collectibles_348_Placebo.png" id="348" maxcharges="4" name="Curculio of Scrags" />
+  <active achievement="244" description="Unshouted Carnalisms" gfx="Collectibles_349_WoodenNickel.png" id="349" maxcharges="1" name="Monstro's Delicate" />
+  <passive description="Sashes down, Basicity way up" gfx="Collectibles_350_ToxicShock.png" id="350" name="Azazel's Prayerless Affixes" />
+  <active description="Pensionable Nightclubberss" gfx="Collectibles_351_MegaBean.png" id="351" maxcharges="3" name="Bladderworts" />
+  <active description="Gigantomachies up" gfx="Collectibles_352_GlassCannon.png" id="352" maxcharges="110" name="Cataloes" />
+  <passive bombs="5" description="Cross-section Alluvions" gfx="Collectibles_353_BomberBoy.png" id="353" name="???'s Verses" />
+  <passive description="You feel Genic..." gfx="Collectibles_354_CrackJacks.png" hearts="2" id="354" maxhearts="2" name="Max's Peristaltic Trammel" />
+  <passive cache="luck range" description="Barefaced Bookkeeperss" gfx="Collectibles_355_MomsPearls.png" id="355" name="The Maestoso Gapeseed" />
+  <passive description="Shives up" gfx="Collectibles_356_CarBattery.png" id="356" name="Dakar of Pycnometers" />
+  <active achievement="203" cache="familiars" description="Deltoid Shapes" gfx="Collectibles_357_PandorasBox.png" id="357" maxcharges="4" name="Dyarchies of Violations" />
+  <passive cache="tearflag" description="You feel Buckskin..." gfx="Collectibles_358_TheWiz.png" id="358" name="Pounds of Callaghans" />
+  <passive cache="damage tearflag" description="You feel Well-worn..." gfx="Collectibles_359_8InchNails.png" id="359" name="The Fervent Malisons" />
+  <familiar achievement="190" description="Calutrons down, Stampede way up" devilprice="2" gfx="Collectibles_360_Incubus.png" id="360" name="Oolith" />
+  <familiar achievement="183" description="You feel Snowlike..." gfx="Collectibles_361_FatesReward.png" id="361" name="Liquefiers" />
+  <familiar achievement="192" description="Misgivings up" gfx="Collectibles_362_LilChest.png" id="362" name="???'s Hole-and-corner Tocher" />
+  <familiar achievement="189" description="Hole-and-corner Penn'orthss" gfx="Collectibles_363_SwornProtector.png" id="363" name="The Honour Dogsleds" />
+  <familiar description="Infighting down, Secretariates way up" gfx="Collectibles_364_FriendZone.png" id="364" name="Calutrons of Exteriors" />
+  <familiar description="Johannine Adipoceres" gfx="Collectibles_365_LostFly.png" id="365" name="Monstro's Beastliest Exerciser" />
+  <passive bombs="5" description="Delicate down, Gullibility way up" gfx="Collectibles_366_ScatterBombs.png" id="366" name="Tammy's Forestal Gapeseed" />
+  <passive bombs="5" description="Delicate down, Jellyfishes way up" gfx="Collectibles_367_StickyBombs.png" id="367" name="Eden's Unchronicled Meddling" />
+  <passive description="Supplementaries up" gfx="Collectibles_368_Epiphora.png" id="368" name="Hedgehogs" />
+  <passive cache="tearflag range" description="Finished Trematodess" gfx="Collectibles_369_Continuum.png" id="369" name="Eve's Honour Invalidation" />
+  <passive cache="range firedelay" description="You feel Entire..." gfx="Collectibles_370_MrDolly.png" id="370" name="Oxcart of Heideggers" />
+  <passive description="Penn'orths up" gfx="Collectibles_371_CurseOfTheTower.png" id="371" name="???'s Mitigated Callaghan" />
+  <familiar description="Hydrangea down, Passableness way up" gfx="Collectibles_372_ChargedBaby.png" id="372" name="Tammy's Celandine" />
+  <passive description="Nematocysts down, Palpability way up" gfx="Collectibles_373_DeadEye.png" id="373" name="The Undisciplined Millimoles" />
+  <passive description="You feel Strip..." gfx="Collectibles_374_HolyLight.png" id="374" name="Max's Wrangler" />
+  <passive description="Ichthyolitic Napkins" gfx="Collectibles_375_HostHat.png" id="375" name="The Smart Chafferers" />
+  <passive description="Restitutions down, Jellyfishes way up" gfx="Collectibles_376_Restock.png" id="376" name="Eve's Daydream" />
+  <passive description="You feel Lozenged..." gfx="Collectibles_377_BurstingSack.png" id="377" name="The Mitigated Rosin" />
+  <passive description="Springwood down, Places way up" gfx="Collectibles_378_NumberTwo.png" id="378" name="Merchant of A-bombs" />
+  <passive cache="tearflag" description="Cycloid Bowmans" gfx="Collectibles_379_PupulaDuplex.png" id="379" name="Heidegger" />
+  <passive coins="5" description="Pew up" gfx="Collectibles_380_PayToPlay.png" id="380" name="The Neuronic Napkin" />
+  <passive achievement="188" cache="firedelay" description="You feel Scirrhoid..." gfx="Collectibles_381_EdensBlessing.png" id="381" name="Mazzini" />
+  <active description="Fidelio up" gfx="Collectibles_382_FriendlyBall.png" id="382" maxcharges="3" name="The Tangy Fire-plow" />
+  <active description="You feel Will-less..." gfx="Collectibles_383_TearDetonator.png" id="383" maxcharges="1" name="Guppy's Nematocysts" />
+  <familiar description="You feel Counterclockwise..." gfx="Collectibles_384_LilGurdy.png" id="384" name="The Cross-section Autostrada" />
+  <familiar description="Manure up" gfx="Collectibles_385_Bumbo.png" id="385" name="Bob's Restitutions" />
+  <active achievement="181" description="Launch down, Falderals way up" gfx="Collectibles_386_D12.png" id="386" maxcharges="3" name="Bladderworts" />
+  <familiar achievement="193" description="Gimcrack Misgivingss" gfx="Collectibles_387_Censer.png" id="387" name="Liquefiers" />
+  <familiar achievement="200" description="Double-faced Feverss" gfx="Collectibles_388_KeyBum.png" id="388" name="Monstro's Verses" />
+  <familiar achievement="218" description="Massifs up" gfx="Collectibles_389_RuneBag.png" id="389" name="The Chirpy Disgrace" />
+  <familiar description="Talkfests down, Immanuel way up" gfx="Collectibles_390_Seraphim.png" id="390" name="Curculio of Origanums" />
+  <passive achievement="182" description="You feel Dead..." gfx="Collectibles_391_Betrayal.png" id="391" name="Lazarus's Legitimist" />
+  <passive achievement="202" description="Ampersand down, Moonbeam way up" gfx="Collectibles_392_Zodiac.png" id="392" name="The Legionary Flyspeck" />
+  <passive achievement="220" description="Slain up" gfx="Collectibles_393_SerpentsKiss.png" id="393" name="Tammy's Molding" />
+  <passive cache="firedelay range" description="Fervent Christianisers" gfx="Collectibles_394_Marked.png" id="394" name="The Same Bergamot" />
+  <passive cache="weapon" description="Unsympathizing Rebecs" gfx="Collectibles_395_TechX.png" id="395" name="Outparish" />
+  <active description="You feel Dead..." gfx="Collectibles_396_VentricleRazor.png" id="396" name="Kingdom" />
+  <passive cache="firedelay tearflag range shotspeed" description="Falcate Invalidations" gfx="Collectibles_397_TractorBeam.png" id="397" name="Judas's Twines" />
+  <passive cache="tearcolor" description="You feel Unshouted..." gfx="Collectibles_398_GodsFlesh.png" id="398" name="Max's Areolation" />
+  <passive achievement="186" cache="tearcolor damage" description="You feel Papaveraceous..." devilprice="2" gfx="Collectibles_399_MawOfTheVoid.png" id="399" name="Isaac's Fidelio" />
+  <passive description="Archidiaconal Gloriosass" gfx="Collectibles_400_SpearOfDestiny.png" id="400" name="Guppy's Baalite" />
+  <passive cache="tearflag tearcolor" description="Foreshadowing down, Falderals way up" gfx="Collectibles_401_Explosivo.png" id="401" name="Appellants of Enjambements" />
+  <passive description="At-home Merchants" gfx="Collectibles_402_Chaos.png" id="402" name="The Jugate Merchant" />
+  <familiar description="Trishaw down, Manure way up" gfx="Collectibles_403_SpiderMod.png" id="403" name="Exerciser of Peas" />
+  <familiar achievement="179" description="Amber Edgars" gfx="collectibles_404_fartbaby.png" id="404" name="Yeuks" />
+  <familiar achievement="201" description="Frosted Asclepiads" gfx="Collectibles_405_GBBug.png" id="405" name="Max's China" />
+  <active achievement="231" description="Norms down, Autostrada way up" gfx="Collectibles_406_D8.png" id="406" maxcharges="4" name="Merchant of Syndicss" />
+  <passive achievement="180" cache="damage firedelay speed range" description="Scabbier Fire-plows" gfx="Collectibles_407_Purity.png" id="407" name="The Self-lighting Houseguest" />
+  <passive achievement="184" description="You feel Neuronic..." gfx="Collectibles_408_Athame.png" id="408" name="Cricket's Restitutions" />
+  <passive achievement="187" blackhearts="4" cache="flying" description="Foreshadowing down, Gapeseed way up" gfx="Collectibles_409_EmptyVessel.png" id="409" name="The Annulated Penn'orths" />
+  <passive achievement="194" description="Lampas up" gfx="Collectibles_410_EvilEye.png" id="410" name="Rascasse" />
+  <passive achievement="198" cache="damage" description="Industrialized Radicchios" gfx="Collectibles_411_LustyBlood.png" id="411" name="Loki's Appellants" />
+  <passive achievement="219" description="You feel Neuronic..." gfx="Collectibles_412_CambionConception.png" id="412" name="Napkin of Bookkeeperss" />
+  <passive achievement="222" description="You feel Played-out..." gfx="Collectibles_413_ImmaculateConception.png" id="413" name="Springwood of Calutronss" />
+  <passive description="All Kingdoms" gfx="Collectibles_414_MoreOptions.png" id="414" name="Period of Gemsboks" />
+  <passive cache="damage shotspeed range" description="Homotype down, Autostrada way up" gfx="Collectibles_415_CrownOfLight.png" id="415" name="Bani of Lucidnesss" soulhearts="4" />
+  <passive achievement="238" description="Bladderworts up" gfx="Collectibles_416_deeppockets.png" id="416" name="Dioptrics" />
+  <familiar achievement="221" description="You feel Glummest..." gfx="Collectibles_417_Succubus.png" id="417" name="Mom's Kingdom" />
+  <passive description="Industrialized Varmentss" gfx="Collectibles_418_FruitCake.png" id="418" name="The Counterclockwise Outparish" />
+  <active description="You feel Nodal..." gfx="Collectibles_419_Teleport20.png" id="419" maxcharges="4" name="The Ripe Isogeotherms" />
+  <passive description="You feel Neuronic..." gfx="Collectibles_420_BlackPowder.png" id="420" name="The Telegonic A-bomb" />
+  <active description="Gonocytes up" gfx="Collectibles_421_KidneyBean.png" id="421" maxcharges="2" name="The Disembodied Falderals" />
+  <active description="Syndics down, Sabbath way up" gfx="Collectibles_422_GlowingHourGlass.png" id="422" maxcharges="2" name="Anglophile" />
+  <passive description="You feel Unchronicled..." gfx="Collectibles_423_CircleOfProtection.png" id="423" name="Gemsbok" />
+  <passive description="Prideful Tagores" gfx="Collectibles_424_SackHead.png" id="424" name="Fire-plow" />
+  <passive description="Fevers down, Shape way up" gfx="Collectibles_425_NightLight.png" id="425" name="Concocters" />
+  <familiar description="Sobriquets down, Backsword way up" gfx="Collectibles_426_ObsessedFan.png" id="426" name="Lazarus's Quarterly Pollack" />
+  <active description="Detector up" gfx="Collectibles_427_MineCrafter.png" id="427" maxcharges="1" name="Foreshadowing" />
+  <passive description="Premedication up" gfx="Collectibles_428_PJs.png" hearts="24" id="428" name="Judas's Sidonie" soulhearts="8" />
+  <passive cache="tearflag" description="You feel Nodal..." gfx="Collectibles_429_HeadOfTheKeeper.png" id="429" name="Drum" />
+  <familiar description="You feel Glummest..." gfx="Collectibles_430_PapaFly.png" id="430" name="Samson's A-bomb" />
+  <familiar description="You feel Consignable..." gfx="Collectibles_431_MultidimensionalBaby.png" id="431" name="Napkin of Liquefierss" />
+  <passive bombs="5" description="Unaspiring Wranglers" gfx="Collectibles_432_GlitterBombs.png" id="432" name="The Annulated Ampersand" />
+  <passive achievement="195" description="You feel Manic..." gfx="Collectibles_433_MyShadow.png" id="433" name="Bob's Isogeotherms" />
+  <active description="Cowhides up" gfx="Collectibles_434_JarOfFlies.png" id="434" maxcharges="0" name="Trishaw" />
+  <familiar description="You feel Double-faced..." gfx="Collectibles_435_LilLoki.png" id="435" name="Akees" />
+  <familiar cache="firedelay" description="Daydream up" gfx="Collectibles_436_Milk.png" id="436" name="The Mylohyoid Slain" />
+  <active description="Impertinent Oxcarts" gfx="Collectibles_437_D7.png" id="437" maxcharges="3" name="The Tangy Strongholds" />
+  <passive cache="firedelay" description="Shape down, Backsword way up" gfx="Collectibles_438_Binky.png" id="438" name="The Victorian Akees" soulhearts="2" />
+  <active cache="all" description="You feel Corkier..." gfx="Collectibles_439_MomsBox.png" id="439" maxcharges="4" name="Samson's Unpraiseworthy Isogeotherms" />
+  <passive achievement="233" cache="range speed firedelay" description="Handiworks up" gfx="Collectibles_440_KidneyStone.png" id="440" name="Odysseus of Liquefierss" />
+  <active achievement="276" description="Stone-cold Stampedes" gfx="collectibles_441_megasatansbreath.png" id="441" maxcharges="12" name="Eve's Trematodes" />
+  <trinket achievement="101" description="Gulp!" gfx="trinket_001_swallowedpenny.png" id="1" name="Swallowed Penny" />
+  <trinket description="It feels lucky?" gfx="trinket_002_petrifiedpoop.png" id="2" name="Petrified Poop" />
+  <trinket description="Trickle charge" gfx="trinket_003_aaabattery.png" id="3" name="AAA Battery" />
+  <trinket description="It's broken" gfx="trinket_004_brokenremote.png" id="4" name="Broken Remote" />
+  <trinket description="Challenge up" gfx="trinket_005_purpleheart.png" id="5" name="Purple Heart" />
+  <trinket description="It kinda works" gfx="trinket_006_brokenmagnet.png" id="6" name="Broken Magnet" />
+  <trinket description="Faith up" gfx="trinket_007_rosarybead.png" id="7" name="Rosary Bead" />
+  <trinket description="I remember these" gfx="trinket_008_cartridge.png" id="8" name="Cartridge" />
+  <trinket cache="tearflag" description="Wub wub!" gfx="trinket_009_pulseworm.png" id="9" name="Pulse Worm" />
+  <trinket cache="tearflag" description="Wiggle waggle!" gfx="trinket_010_wiggleworm.png" id="10" name="Wiggle Worm" />
+  <trinket cache="tearflag" description="Woop woop!" gfx="trinket_011_ringworm.png" id="11" name="Ring Worm" />
+  <trinket cache="tearflag" description="Blub blub!" gfx="trinket_012_flatworm.png" id="12" name="Flat Worm" />
+  <trinket achievement="118" description="YES!" gfx="trinket_013_storecredit.png" id="13" name="Store Credit" />
+  <trinket description="Your feet feel stronger" gfx="trinket_014_callus.png" id="14" name="Callus" />
+  <trinket achievement="85" description="There's something inside it" gfx="trinket_015_luckyrock.png" id="15" name="Lucky Rock" />
+  <trinket description="???" gfx="trinket_016_momstoenail.png" id="16" name="Mom's Toenail" />
+  <trinket achievement="111" cache="damage" description="Evil up" gfx="trinket_017_blacklipstick.png" id="17" name="Black Lipstick" />
+  <trinket description="Faith up" gfx="trinket_018_bibletract.png" id="18" name="Bible Tract" />
+  <trinket description="Master of lockpicking" gfx="trinket_019_paperclip.png" id="19" name="Paper Clip" />
+  <trinket description="Wish granted" gfx="trinket_020_monkeypaw.png" id="20" name="Monkey Paw" />
+  <trinket achievement="123" description="???" gfx="trinket_021_mysteriouspaper.png" id="21" name="Mysterious Paper" />
+  <trinket achievement="127" cache="damage" description="Evil up" gfx="trinket_022_daemonstail.png" id="22" name="Daemon's Tail" />
+  <trinket achievement="149" description="???" gfx="trinket_023_missingposter.png" id="23" name="Missing Poster" />
+  <trinket description="Wealth of gas" gfx="trinket_024_buttpenny.png" id="24" name="Butt Penny" />
+  <trinket description="Uh-oh!" gfx="trinket_025_mysteriouscandy.png" id="25" name="Mysterious Candy" />
+  <trinket cache="tearflag range" description="Zip zoop!" gfx="trinket_026_hookworm.png" id="26" name="Hook Worm" />
+  <trinket cache="shotspeed" description="Wooosh!" gfx="trinket_027_whipworm.png" id="27" name="Whip Worm" />
+  <trinket achievement="117" description="Eternal life?" gfx="trinket_028_brokenankh.png" id="28" name="Broken Ankh" />
+  <trinket description="It stinks" gfx="trinket_029_fishhead.png" id="29" name="Fish Head" />
+  <trinket description="Poison shots" gfx="trinket_030_pinkyeye.png" id="30" name="Pinky Eye" />
+  <trinket description="Piercing shots" gfx="trinket_031_pushpin.png" id="31" name="Push Pin" />
+  <trinket description="Touch fuzzy, get dizzy" gfx="trinket_032_libertycap.png" id="32" name="Liberty Cap" />
+  <trinket description="Fetal protection" gfx="trinket_033_umbilicalcord.png" id="33" name="Umbilical Cord" />
+  <trinket description="It calls out to its brothers" gfx="trinket_034_childsheart.png" id="34" name="Child's Heart" />
+  <trinket achievement="52" cache="damage" description="DMG up" gfx="trinket_035_curvedhorn.png" id="35" name="Curved Horn" />
+  <trinket description="It feels lucky?" gfx="trinket_036_rustedkey.png" id="36" name="Rusted Key" />
+  <trinket cache="speed" description="Speed up" gfx="trinket_037_goathoof.png" id="37" name="Goat Hoof" />
+  <trinket description="It emanates purity " gfx="trinket_038_momspearl.png" id="38" name="Mom's Pearl" />
+  <trinket cache="firedelay" description="Yay, cancer!" gfx="trinket_039_cancer.png" id="39" name="Cancer" />
+  <trinket cache="damage" description="Your rage grows" gfx="trinket_040_redpatch.png" id="40" name="Red Patch" />
+  <trinket description="Tastes like burning" gfx="trinket_041_matchstick.png" id="41" name="Match Stick" />
+  <trinket achievement="61" cache="luck" description="Luck up!" gfx="trinket_042_luckytoe.png" id="42" name="Lucky Toe" />
+  <trinket description="Cursed?" gfx="trinket_043_cursedskull.png" id="43" name="Cursed Skull" />
+  <trinket description="Don't swallow it" gfx="trinket_044_safetycap.png" id="44" name="Safety Cap" />
+  <trinket description="Luck of the draw" gfx="trinket_045_aceofspades.png" id="45" name="Ace of Spades" />
+  <trinket description="Consume thy enemy" gfx="trinket_046_isaacsfork.png" id="46" name="Isaac's Fork" />
+  <trinket description="It glows with power" gfx="trinket_048_amissingpage.png" id="48" name="A Missing Page" />
+  <trinket achievement="55" description="Wealth of health" gfx="trinket_049_bloodypenny.png" id="49" name="Bloody Penny" />
+  <trinket achievement="60" description="Wealth of chaos" gfx="trinket_050_burntpenny.png" id="50" name="Burnt Penny" />
+  <trinket description="Wealth of answers" gfx="trinket_051_flatpenny.png" id="51" name="Flat Penny" />
+  <trinket achievement="64" description="Wealth of wealth" gfx="trinket_052_counterfeitpenny.png" id="52" name="Counterfeit Penny" />
+  <trinket description="Well, that's not coming off" gfx="trinket_053_tick.png" id="53" name="Tick" />
+  <trinket achievement="70" cache="familiars" description="Dead friend" gfx="trinket_054_isaacshead.png" id="54" name="Isaac's Head" />
+  <trinket achievement="71" description="Faith's reward" gfx="trinket_055_maggysfaith.png" id="55" name="Maggy's Faith" />
+  <trinket achievement="72" description="Payment received " gfx="trinket_056_judastongue.png" id="56" name="Judas' Tongue" />
+  <trinket achievement="73" cache="familiars" description="Imaginary friend" gfx="trinket_057_qmarkssoul.png" id="57" name="???'s Soul" />
+  <trinket achievement="74" cache="damage" description="Your rage grows" gfx="trinket_058_samsonslock.png" id="58" name="Samson's Lock" />
+  <trinket achievement="75" description="May you see your destination" gfx="trinket_059_cainseye.png" id="59" name="Cain's Eye" />
+  <trinket achievement="76" cache="familiars" description="Revenge from beyond" gfx="trinket_060_evesbirdfoot.png" id="60" name="Eve's Bird Foot" />
+  <trinket achievement="77" description="The left-hand path reaps dark rewards" gfx="trinket_061_thelefthand.png" id="61" name="The Left Hand" />
+  <trinket description="It shines for its brothers" gfx="trinket_062_ShinyRock.png" id="62" name="Shiny Rock" />
+  <trinket description="Fuse cutter" gfx="trinket_063_SafetyScissors.png" id="63" name="Safety Scissors" />
+  <trinket cache="range shotspeed tearflag firedelay" description="Bleep bloop blop" gfx="trinket_064_RainbowWorm.png" id="64" name="Rainbow Worm" />
+  <trinket cache="range" description="Floooooooooop!" gfx="trinket_065_TapeWorm.png" id="65" name="Tape Worm" />
+  <trinket cache="range shotspeed" description="Pft" gfx="trinket_066_LazyWorm.png" id="66" name="Lazy Worm" />
+  <trinket achievement="196" description="You feel cursed... kinda." gfx="trinket_067_CrackedDice.png" id="67" name="Cracked Dice" />
+  <trinket description="It pulls" gfx="trinket_068_SuperMagnet.png" id="68" name="Super Magnet" />
+  <trinket description="You feel faded" gfx="trinket_069_FadedPolaroid.png" id="69" name="Faded Polaroid" />
+  <trinket description="Itchy, tasty..." gfx="trinket_070_Louse.png" id="70" name="Louse" />
+  <trinket description="Creepy bombs" gfx="trinket_071_BobsBladder.png" id="71" name="Bob's Bladder" />
+  <trinket description="Lil charge" gfx="trinket_072_WatchBattery.png" id="72" name="Watch Battery" />
+  <trinket description="Pop! Pop!" gfx="trinket_073_BlastingCap.png" id="73" name="Blasting Cap" />
+  <trinket achievement="230" description="The ground below feels hollow..." gfx="trinket_074_StudFinder.png" id="74" name="Stud Finder" />
+  <trinket cache="all" description="Effect not found?" gfx="trinket_075_Error.png" id="75" name="Error" />
+  <trinket achievement="229" description="It's double down time!" gfx="trinket_076_PokerChip.png" id="76" name="Poker Chip" />
+  <trinket cache="tearflag" description="Bounce back!" gfx="trinket_077_Blister.png" id="77" name="Blister" />
+  <trinket description="Extended stat effect time!" gfx="trinket_078_SecondHand.png" id="78" name="Second Hand" />
+  <trinket description="I'm stuck in a loop..." gfx="trinket_079_EndlessNameless.png" id="79" name="Endless Nameless" />
+  <trinket achievement="197" cache="damage" description="With darkness comes power" gfx="trinket_080_BlackFeather.png" id="80" name="Black Feather" />
+  <trinket achievement="185" description="Blind to damage" gfx="trinket_081_BlindRage.png" id="81" name="Blind Rage" />
+  <trinket description="Feel lucky?" gfx="trinket_082_GoldenHorseShoe.png" id="82" name="Golden Horse Shoe" />
+  <trinket achievement="249" description="Stores are open" gfx="trinket_083_storekey.png" id="83" name="Store Key" />
+  <trinket achievement="204" description="Feels greedy" gfx="trinket_084_ribofgreed.png" id="84" name="Rib of Greed" />
+  <trinket achievement="239" description="Karma up" gfx="trinket_085_karma.png" id="85" name="Karma" />
+  <trinket description="the poop is moving..." gfx="Trinket_086_LilLarva.png" id="86" name="Lil Larva" />
+  <trinket description="you feel her love" gfx="Trinket_087_MomsLocket.png" id="87" name="Mom's Locket" />
+  <trinket description="Never again!" gfx="Trinket_088_NO.png" id="88" name="NO!" />
+  <trinket description="Keep your friends close..." gfx="Trinket_089_ChildLeash.png" id="89" name="Child Leash" />
+  <trinket description="Fartoom!" gfx="Trinket_090_BrownCap.png" id="90" name="Brown Cap" />
+</items>

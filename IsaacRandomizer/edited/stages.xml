@@ -1,0 +1,28 @@
+<stages root="rooms/" bossgfxroot="gfx/ui/boss/">
+  <stage id="0" name="Caeno" path="00.Special Rooms.xml" />
+  <stage id="1" name="Heart" path="01.Basement.xml" playerspot="playerspot_01_basement.png" bossspot="bossspot_01_basement.png" />
+  <stage id="2" name="Circus" path="02.Cellar.xml" playerspot="playerspot_02_cellar.png" bossspot="bossspot_02_cellar.png" />
+  <stage id="3" name="Reskin" path="01.Basement.xml" playerspot="playerspot_13_burning_basement.png" bossspot="bossspot_13_burning_basement.png" />
+  <stage id="4" name="Aer" path="04.Caves.xml" playerspot="playerspot_03_caves.png" bossspot="bossspot_03_caves.png" />
+  <stage id="5" name="Mortus" path="05.Catacombs.xml" playerspot="playerspot_04_catacombs.png" bossspot="bossspot_04_catacombs.png" />
+  <stage id="6" name="Castle" path="04.Caves.xml" playerspot="playerspot_14_drowned_caves.png" bossspot="bossspot_14_drowned_caves.png" />
+  <stage id="7" name="Hamlet" path="07.Depths.xml" playerspot="playerspot_05_depths.png" bossspot="bossspot_05_depths.png" />
+  <stage id="8" name="Abbey" path="08.Necropolis.xml" playerspot="playerspot_06_necropolis.png" bossspot="bossspot_06_necropolis.png" />
+  <stage id="9" name="Flat" path="07.Depths.xml" playerspot="playerspot_15_dank_depths.png" bossspot="bossspot_15_dank_depths.png" />
+  <stage id="10" name="Genitals" path="10.Womb.xml" playerspot="playerspot_07_womb.png" bossspot="bossspot_07_womb.png" />
+  <stage id="11" name="Chest" path="11.Utero.xml" playerspot="playerspot_07_womb.png" bossspot="bossspot_07_womb.png" />
+  <stage id="12" name="Bladder" path="10.Womb.xml" playerspot="playerspot_16_scarred_womb.png" bossspot="bossspot_16_scarred_womb.png" />
+  <stage id="13" name="Attic" path="13.Blue Womb.xml" playerspot="playerspot_17_blue_womb.png" bossspot="bossspot_17_blue_womb.png" />
+  <stage id="14" name="Apartment" path="14.Sheol.xml" playerspot="playerspot_09_sheol.png" bossspot="bossspot_09_sheol.png" />
+  <stage id="15" name="Potatoland" path="15.Cathedral.xml" playerspot="playerspot_10_cathedral.png" bossspot="bossspot_10_cathedral.png" />
+  <stage id="16" name="Hentai Haven" path="16.Dark Room.xml" playerspot="playerspot_11_darkroom.png" bossspot="bossspot_11_darkroom.png" />
+  <stage id="17" name="Dangling Dick" path="17.Chest.xml" playerspot="playerspot_12_chest.png" bossspot="bossspot_12_chest.png" />
+  <stage id="18" name="Edgy Place" path="18.Greed Special.xml" />
+  <stage id="19" name="Disney World" path="19.Greed Basement.xml" playerspot="playerspot_01_basement.png" bossspot="bossspot_01_basement.png" />
+  <stage id="20" name="Cottage" path="20.Greed Caves.xml" playerspot="playerspot_03_caves.png" bossspot="bossspot_03_caves.png" />
+  <stage id="21" name="Dank Place" path="21.Greed Depths.xml" playerspot="playerspot_05_depths.png" bossspot="bossspot_05_depths.png" />
+  <stage id="22" name="Dangling Dick" path="22.Greed Womb.xml" playerspot="playerspot_07_womb.png" bossspot="bossspot_07_womb.png" />
+  <stage id="23" name="Savanna" path="23.Greed Sheol.xml" playerspot="playerspot_09_sheol.png" bossspot="bossspot_09_sheol.png" />
+  <stage id="24" name="Plaza" path="24.Greed The Shop.xml" />
+  <stage id="25" name="Bleach" path="25.Ultra Greed.xml" playerspot="playerspot_18_shop.png" bossspot="bossspot_18_shop.png" />
+</stages>
